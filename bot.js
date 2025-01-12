@@ -65,10 +65,10 @@ if(!fs.existsSync("config.yaml")) {
     let lang = yaml.load(rawlang);
     const readFile = (fileName) => util.promisify(fs.readFile)(fileName, 'utf8')
 
-    const host = data["ip"];
-    const port = data["port"];
-    const version = data["version"];
-    const password = data["password"];
+    const host = data["UNITED-SMP-US.aternos.me:41562"];
+    const port = data[""];
+    const version = data["1.21.4"];
+    const password = data["bot123"];
     const interval = data["interval"];
 
     const consolebotlistlogin1 = lang["consolebotlistlogin1"];
